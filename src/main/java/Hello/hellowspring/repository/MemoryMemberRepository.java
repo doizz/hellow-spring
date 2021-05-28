@@ -1,10 +1,12 @@
 package Hello.hellowspring.repository;
 
 import Hello.hellowspring.domain.Member;
+import org.springframework.stereotype.Repository;
 
 import javax.swing.text.html.Option;
 import java.util.*;
 
+@Repository
 public class MemoryMemberRepository  implements MemberRepository{
 
 
